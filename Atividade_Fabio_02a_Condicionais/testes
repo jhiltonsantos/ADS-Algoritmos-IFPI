@@ -1,0 +1,14 @@
+    '''
+    if inicio_min >= 60:
+        inicio_hora = inicio_hora + 1
+        inicio_min = inicio_min - 60
+        return inicio_hora,inicio_min
+    else:
+        return inicio_hora,inicio_min    
+    if fim_min >= 60:
+        fim_hora = fim_hora + 1
+        fim_min = inicio_min - 60
+        return fim_hora,fim_min
+    else:
+        return fim_hora,fim_min
+    '''
