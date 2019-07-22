@@ -1,7 +1,7 @@
-Github [DIS]Algoritmos
 
-Arquivos feitos durante o período do curso
-de Algoritmos no curso de ADS (IFPI) no período de
-2019.1 .
+Algoritmos ADS/2019.1
 
+Códigos realizados durante a Disciplina de Algoritmos
+no IFPI
 
+Código em Python
