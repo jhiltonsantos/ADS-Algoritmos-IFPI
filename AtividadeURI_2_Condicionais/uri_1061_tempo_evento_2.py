@@ -1,0 +1,66 @@
+def main():
+    dd_ini = input().split()
+    dia_ini = int(dd_ini[1])
+    hh_ini, mm_ini, ss_ini = map(int, input().split(' : '))
+    dd_fim = input().split()
+    dia_fim = int(dd_fim[1])
+    hh_fim, mm_fim, ss_fim = map(int, input().split(' : '))
+    
+    tempo_inicio = [hh_ini,mm_ini,ss_ini]
+    tempo_fim = [hh_fim,mm_fim,ss_fim]
+    
+    tempo(tempo_inicio, tempo_fim, dia_fim, dia_ini)
+    
+    
+def tempo(tempo_inicio, tempo_fim, dia_fim, dia_ini):
+    dia(dia_fim, dia_ini)
+    hora(tempo_inicio, tempo_fim)
+    minuto(tempo_inicio, tempo_fim)
+    segundo(tempo_inicio, tempo_fim)
+    
+    if tempo_inicio[0] > tempo_fim[0]:
+        dia_total = dia_total - 1
+
+    if tempo_inicio[1] > tempo_fim[1]:
+        hora_total = hora_total - 1
+
+    if tempo_inicio[2] > tempo_fim[2]:
+        minuto_total = minuto_total - 1
+    
+    if dia_total < 0:
+        dia_total = 0
+
+    print('{} dia(s)\n{} hora(s)\n{} minuto(s)\n{} segundo(s)'.format(dia, hora, minuto, segundo))
+    
+
+def dia(dia_fim, dia_ini):
+    dia_total = dia_fim - dia_ini
+    return dia_total
+
+
+def hora(tempo_inicio, tempo_fim):
+    if tempo_inicio[0] > tempo_fim[0]:
+        hora_total = 24 - (tempo_inicio[0] + tempo_fim[0])
+    else:
+        hora_total = tempo_fim[0] - tempo_inicio[0]
+    return hora_total
+
+
+def minuto(tempo_inicio, tempo_fim):
+    if tempo_inicio[1] > tempo_fim[1]:
+        
+    else:
+        minuto_total = tempo_fim[1] - tempo_inicio[1]
+    return minuto_total
+
+
+def segundo(tempo_inicio, tempo_fim):
+    if tempo_inicio[2] > tempo_fim[2]:
+        segundo_total =60 - (tempo_inicio[2] + tempo_fim[2])
+    else:
+        segundo_total = tempo_fim[2] - tempo_inicio[2]
+    return segundo_total
+    
+
+if __name__ == '__main__':
+    main()
