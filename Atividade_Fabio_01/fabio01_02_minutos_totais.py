@@ -9,6 +9,8 @@ calculo_minutos = (horas * 60) + minutos
 print('O valor total em minutos sera de: {} minutos.'.format(calculo_minutos))
 
 
+print('Testando Git')
+
 
 
 
