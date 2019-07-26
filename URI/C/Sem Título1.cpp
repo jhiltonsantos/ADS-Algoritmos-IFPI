@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    float n1, n2, n3, perimetro, area;
+    scanf ("%f%f%f", &n1,&n2,&n3);
+
+    perimetro = n1+n2+n3;
+
+    if (abs(n2-n3)<n1 && n1<(n2+n3)){
+        printf("Perimetro = %.1f\n", perimetro);
+    }
+    else if (abs(n1-n3)<n2 && n2<(n1+n3)){
+        printf("Perimetro = %.1f\n", perimetro);
+    }
+    else if (abs(n1-n2)<n3 && n3<(n1+n2)){
+        printf("Perimetro = %.1f\n", perimetro);
+    }
+
+    else{
+        area =.5*(n1+n2)*n3; 
+        printf("Area = %.1f\n", area);
+    }
+    
+    return 0;
+}
