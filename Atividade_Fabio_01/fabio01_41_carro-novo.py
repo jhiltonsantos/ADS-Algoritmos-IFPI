@@ -1,5 +1,5 @@
 # entrada
-custo_fabrica = float(input('Digite o valor do custo de fabrica do carro: '))
+custo_fabrica = float(input('Digite o valor do custo de fabricacao do carro: '))
 
 # processamento
 custo_carro = custo_fabrica + (custo_fabrica * 0.28) + (custo_fabrica * 0.45)
