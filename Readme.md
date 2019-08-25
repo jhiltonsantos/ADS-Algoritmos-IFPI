@@ -1,6 +1,6 @@
 # Disciplina de Algoritmos (ADS/2019.1)
 
 Códigos realizados durante a Disciplina de Algoritmos
-no Instituto Federal do Piauí.
+no 1º Período do curso de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí.
 
-Códigos em Python.
+Linguagem(ns) utilizada(s) na disciplina: Python.
