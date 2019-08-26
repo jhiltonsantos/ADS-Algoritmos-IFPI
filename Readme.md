@@ -5,8 +5,5 @@ no 1º Período do curso de Análise e Desenvolvimento de Sistemas no Instituto 
 
 Linguagem(ns) utilizada(s) na disciplina: Python.
 
-
-![ifpilogo](https://user-images.githubusercontent.com/39769638/63691926-e5018b80-c7e6-11e9-8fc9-b27862847b84.png)
-
-<img src="https://github.com/jhiltonsantos/ADS-Algoritmos-IFPI/blob/master/ifpilogo.png" height="400" width="200">
+<img src="https://github.com/jhiltonsantos/ADS-Algoritmos-IFPI/blob/master/ifpilogo.png" height="600" width="500">
 
