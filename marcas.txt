@@ -1,5 +1,0 @@
-1#honda#japao
-2#mazda#japao
-3#nissan#japao
-4#toyota#japao
-5#subaru#japao
